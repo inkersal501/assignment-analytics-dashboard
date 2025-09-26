@@ -1,16 +1,42 @@
-# React + Vite
+# Apple Search Ads Analytics Dashboard
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A comprehensive analytics dashboard for Apple Search Ads performance tracking built with modern React technologies.
 
-Currently, two official plugins are available:
+## Tech Stack
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+- **React 18+** - Functional components and hooks
+- **Redux Toolkit** - State management
+- **Tailwind CSS** - Styling 
+- **Recharts** - Data visualizations
+- **TanStack React Table** - Data grids
 
-## React Compiler
+## Design Reference
 
-The React Compiler is not enabled on this template. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+[Figma Design Link](https://www.figma.com/design/HdQf17TQGkKEmYL5hbjc4T/Task?node-id=0-1&t=n6CGxFcDKV4mbeKK-1)
 
-## Expanding the ESLint configuration
+## Installation
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+```bash
+# Clone the repository
+git clone <repository-url>
+cd apple-search-ads-dashboard
+
+# Install dependencies
+npm install
+
+# Start development server
+npm run dev
+```
+
+## Features
+
+- Real-time analytics dashboard
+- Interactive charts and data tables
+- Campaign performance tracking
+- Responsive design with smooth animations
+- State management with Redux Toolkit
+
+
+## Live Demo
+
+[View Live Dashboard](https://assignment-analytics-dashboard.vercel.app/)
